@@ -56,7 +56,6 @@ function updateValue()
         container.removeChild(container.firstChild);
         }
         createGrids(value);
-    
 }
 
 //the clear button which colors all the existing grids white
@@ -64,3 +63,10 @@ const clearBtn = document.querySelector('.clear');
 clearBtn.addEventListener('click', () => {
     gridCell.forEach((item) =>item.style.background="white")
 })
+
+
+//for RGB colors, go in colorgrid function
+//use if statement, for ifcolor button was toggled
+//else just use black
+
+//same thing with eraser and perhaps gray
